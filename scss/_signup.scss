@@ -1,0 +1,29 @@
+.sign-up .right-content{
+
+    .slider-wrapper{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        .slide-control{
+            display: flex;
+            align-items: flex-end;
+            height: 100%;
+        }
+
+        .dot{
+            width: 10px;
+            height: 10px;
+            background-color: $inactive-color;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .dot.active{
+            background-color: $accent-color;
+        }
+    }
+
+    button{
+        height: 38px;
+        width:100px;
+    }
+}
